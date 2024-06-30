@@ -15,10 +15,15 @@ def loop():
 def listFruits():
     for fruit in fruits:
         print (fruit)
-listFruits()
+# listFruits()
 
 #Print even numbers
-for x in range(0,21,2):
-    print (x)
 
-    
+# for x in range(0,21,2):
+    # print (x)
+
+def add(a,b):
+    print (a+b)
+# add(1,2)
+
+def 
