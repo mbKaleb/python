@@ -22,8 +22,20 @@ def listFruits():
 # for x in range(0,21,2):
     # print (x)
 
-def add(a,b):
+def add1(a,b):
     print (a+b)
 # add(1,2)
 
-def 
+def add2(a,b):
+    c = a+b
+    return c
+
+def add3(a,b):
+    return a+b
+
+def square(c):
+    return c*c
+
+print (square(add3(4,2)))
+
+
